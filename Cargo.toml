@@ -2,6 +2,12 @@
 name = "clap-dyn-autocomplete"
 version = "0.1.0"
 edition = "2024"
+description = "Dynamic runtime shell completions for clap"
+license = "MIT"
+repository = "https://github.com/sayavc/clap-dyn-autocomplete"
+readme = "README.md"
+keywords = ["clap", "completion", "shell", "cli"]
+categories = ["command-line-interface"]
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
